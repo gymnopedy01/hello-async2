@@ -5,6 +5,7 @@ import java.util.concurrent.atomic.AtomicLong
 import kotlin.concurrent.thread
 import kotlin.system.measureTimeMillis
 
+// count: 1000000000, elapsed: 19789 ms
 fun main() {
     val latcher = CountDownLatch(10_000)
     val count = AtomicLong()

@@ -13,5 +13,5 @@ fun main() {
                 count.addAndGet(1)
             }.subscribe()
         }.blockLast()
-    }.let { println("count $count, elapsed $it ms") }
+    }.let { println("count: $count, elapsed $it ms") }
 }
